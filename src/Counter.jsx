@@ -8,9 +8,9 @@ export const Counter = () => {
   // }
 
   const increase = () => {
-    setCount(prevCount => prevCount + 1);
-    setCount(prevCount => prevCount + 1);
-    setCount(prevCount => prevCount + 1);
+    setCount(current => current + 1);
+    setCount(current => current + 1);
+    setCount(current => current + 1);
   }
 
   return (
